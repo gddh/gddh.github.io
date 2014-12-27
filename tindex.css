@@ -1,0 +1,70 @@
+video {
+	position: fixed; right: 0; bottom: 0;
+	min-width: 100%; min-height: 100%;
+	width: auto; height: auto; z-index: -100;
+	background: url(polina.jpg) no-repeat;
+	background-size: cover;
+}
+
+h1{
+	padding-top: 3%;
+	color: #C8C8C8;
+	text-align: center;
+	text-shadow: white 0px 0px 25px;
+	font-size: 500%;
+}
+
+footer {
+	padding:0px 0px;
+	margin: 0px 0px;
+	height: 5%;
+	bottom:2%;
+	position:fixed;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width:100%;
+}
+
+footer ul{
+	background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  	padding-bottom: 1%;
+}
+
+.about{
+	background: black;
+	position:relative;
+	height:75%;
+	width:20%;
+	float: left;
+}
+
+.about p{
+	color: white;
+}
+
+a {
+	color:#D8D8D8;
+	text-decoration: none;
+}
+a:hover{
+	color:blue;
+}
+#mreference li:hover{
+	background: silver;
+	color:blue;
+	padding-left: 40px; 
+	padding-right: 40px
+}
+
+#mreference li {
+	font-size: 25px;
+	display:inline-block;
+	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+	text-shadow: white 0px 0px 25px;
+	position: relative; 
+	z-index:100; 
+	padding-bottom:1%;
+	padding-top: 1%;
+}
