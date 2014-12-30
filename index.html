@@ -8,13 +8,19 @@
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
 		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js'></script>
 		<script type="text/javascript" src="script.js"></script>
-		<title> Tests </title>
+		<script>
+			window.addEventListener('load', function(){
+				var load_screen = document.getElementById('load_screen');
+				document.body.removeChild(load_screen);
+			});
+		<title> Vernacular </title>
 	</head>
 
 	<body>
 		<h1>
 			Vernacular
 		</h1>
+		<div id -'load_screen'><div id='loading'> loading... </div></div>
 		<div id ='about1' class="aboutpara">
 			<h2> Imagination. </h2>
 			<p>

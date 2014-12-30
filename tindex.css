@@ -26,6 +26,23 @@ h2{
 	margin:auto;
 }
 
+#load_screen{
+	background:black;
+	opacity: 1%;
+	position:fixed;
+	z-index: 10;
+	top:0px;
+	width:100%;
+	height:100%;
+}
+
+#loading{
+	color:white;
+	width:120px;
+	height:24px;
+	margin:300px auto;
+}
+
 #contact{
 	position:absolute;
 	right:7%;
