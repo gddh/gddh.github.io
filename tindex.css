@@ -1,11 +1,11 @@
-/*
+
 video {
 	position: fixed; left:0.25px; bottom: 0;
 	min-width: 100%; min-height: 100%;
 	width: auto; height: auto; z-index: -100;
 	background-size: cover;
 }
-*/
+
 h1{
 	color: #C8C8C8;
 	text-align: center;
