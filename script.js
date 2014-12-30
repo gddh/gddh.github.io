@@ -1,3 +1,4 @@
+
 $(function Call() {
 	$('#about1').hide();
 	$('#about').on('click', function(){
