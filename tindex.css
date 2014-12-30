@@ -1,11 +1,11 @@
-
+/*
 video {
 	position: fixed; left:0.25px; bottom: 0;
 	min-width: 100%; min-height: 100%;
 	width: auto; height: auto; z-index: -100;
 	background-size: cover;
 }
-
+*/
 h1{
 	color: #C8C8C8;
 	text-align: center;
@@ -28,14 +28,18 @@ h2{
 }
 
 .flashit{
-	animation: flash linear 1s infinite;
+	-webkit-animation: flash linear 2s infinite;
+	animation: flash linear 2s infinite;
 }
-
-@keyframe flash{
-	0%{opacity:1;}
-	50%{opacity:.5;}
-	100%{opacity:1;}
-
+@-webkit-keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
+}
+@keyframes flash {
+	0% { opacity: 1; } 
+	50% { opacity: .1; } 
+	100% { opacity: 1; }
 }
 
 #load_screen{
@@ -60,12 +64,12 @@ h2{
 #contact{
 	position:absolute;
 	right:0px;
-	background: none;
-	width:50px;
+	width:120px;
 	top:20%;
 
 }
 #contact li{
+	right:75px;
 	z-index:-200;
 	list-style-type: none;
 }
