@@ -1,3 +1,4 @@
+
 video {
 	position: fixed; left:0.25px; bottom: 0;
 	min-width: 100%; min-height: 100%;
@@ -12,8 +13,7 @@ h1{
 	font-size: 500%;
 	margin:auto;
 	position:absolute;
-	left:50%;
-	margin-left:-16%;
+	left:34%;
 	top:0px;
 }
 
@@ -28,45 +28,41 @@ h2{
 }
 
 .flashit{
-	-webkit-animation: flash linear 2s infinite;
-	animation: flash linear 2s infinite;
+	animation: flash linear 1s infinite;
 }
-@-webkit-keyframes flash {
-	0% { opacity: 1; } 
-	50% { opacity: .1; } 
-	100% { opacity: 1; }
+
+@keyframe flash{
+	0%{opacity:1;}
+	50%{opacity:.5;}
+	100%{opacity:1;}
+
 }
-@keyframes flash {
-	0% { opacity: 1; } 
-	50% { opacity: .1; } 
-	100% { opacity: 1; }
-}
+
 #load_screen{
-	right:0;
-	top:0;
 	background:black;
 	opacity: 1%;
 	position:absolute;
-	z-index: -200;
+	z-index: -100;
 	width:100%;
 	height:100%;
+	top:0px;
 }
 
 #loading{
 	position: relative;
-	color:#D8D8D8;
+	color:white;
 	font-size:50px;
 	margin:300px auto;
-	left:525px;
-	text-shadow: white 0px 0px 25px;
+	text-align: center;
 }
 
 #contact{
 	position:absolute;
-	right:7%;
+	right:0px;
 	background: none;
 	width:50px;
 	top:20%;
+
 }
 #contact li{
 	z-index:-200;
@@ -78,7 +74,6 @@ h2{
 }
 
 .aboutpara{
-	background: black;
 	position:absolute;
 	padding:9px;
 	top:12.5%;
@@ -88,6 +83,7 @@ h2{
 	border-style:solid;
 	border-width: 3px;
 	border-color:#D8D8D8;
+	z-index: 2;
 }
 
 .aboutpara p{
@@ -155,16 +151,14 @@ h2{
 }
 
 footer {
-	padding:auto;
-	margin: auto;
-	height: 5%;
-	bottom: 3%;
+	bottom:4%;
 	position:absolute;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
 	width:100%;
-	right:1%;
+	height:5%;
+
 }
 
 
@@ -173,6 +167,4 @@ footer ul{
   	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
   	padding:none;
   	margin:none;
-
- 
 }
