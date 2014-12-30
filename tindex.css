@@ -1,70 +1,143 @@
 video {
-	position: fixed; right: 0; bottom: 0;
+	position: fixed; left:0.25px; bottom: 0;
 	min-width: 100%; min-height: 100%;
 	width: auto; height: auto; z-index: -100;
-	background: url(polina.jpg) no-repeat;
 	background-size: cover;
 }
 
 h1{
-	padding-top: 3%;
 	color: #C8C8C8;
 	text-align: center;
 	text-shadow: white 0px 0px 25px;
 	font-size: 500%;
+	margin:auto;
+	position:absolute;
+	left:50%;
+	margin-left:-16%;
+}
+
+h2{
+	color: #C8C8C8;
+	text-align: center;
+	text-shadow: white 0px 0px 25px;
+	font-size: 150%;
+	padding-right:15%;
+	padding-top: 10%;
+	margin:auto;
+}
+
+#contact{
+	position:absolute;
+	right:7%;
+	background: none;
+	width:50px;
+	top:20%;
+}
+#contact li{
+	z-index:-200;
+	list-style-type: none;
+}
+#contact img{
+	height: 75px;
+	width: 75px;
+}
+
+.aboutpara{
+	background: black;
+	position:absolute;
+	padding:9px;
+	top:12.5%;
+	max-height:75%;
+	width:20%;
+	overflow:auto;
+	border-style:solid;
+	border-width: 3px;
+	border-color:#D8D8D8;
+}
+
+.aboutpara p{
+	color: white;
+	margin-top:none;
+}
+
+.aboutpara a{
+	color:white;
+}
+
+#mreference p{
+	color:#D8D8D8;
+	text-decoration: none;
+	
+}
+
+#mreference :hover{
+	color:white;
+	font-size:23px;
+}
+
+#mreference li {
+	color:#D8D8D8 ;
+	display:inline-block;
+	text-shadow: white 0px 0px 20px;
+	position: relative; 
+	z-index:100; 
+	font-size:20px;
+	padding:1%;
+}
+#mreference a{
+	display:block;
+	text-decoration: none;
+	color:#D8D8D8;
+	font-size:20px;
+}
+
+#mreference li:hover ul{
+	display:block;
+	bottom:100%;
+	margin:auto;
+	position: absolute;
+
+}
+
+#mreference ul li{
+	border-width:1px;
+	border-style:solid;
+	border-color:#383838;
+	display:block;
+	padding:5px;
+	background:#484848 ;
+}
+#mreference ul li a{
+	font-size:17px;
+
+}
+#mreference ul{
+	background:none;
+	box-shadow:none;
+	display:none;
+	right:1%;
+	min-width:100%;
 }
 
 footer {
-	padding:0px 0px;
-	margin: 0px 0px;
+	padding:auto;
+	margin: auto;
 	height: 5%;
-	bottom:2%;
-	position:fixed;
+	bottom: 3%;
+	position:absolute;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
 	width:100%;
+	right:1%;
 }
+
 
 footer ul{
 	background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
   	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-  	padding-bottom: 1%;
-}
+  	padding:none;
+  	margin:none;
 
-.about{
-	background: black;
-	position:relative;
-	height:75%;
-	width:20%;
-	float: left;
-}
-
-.about p{
-	color: white;
-}
-
-a {
-	color:#D8D8D8;
-	text-decoration: none;
-}
-a:hover{
-	color:blue;
-}
-#mreference li:hover{
-	background: silver;
-	color:blue;
-	padding-left: 40px; 
-	padding-right: 40px
-}
-
-#mreference li {
-	font-size: 25px;
-	display:inline-block;
-	box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-	text-shadow: white 0px 0px 25px;
-	position: relative; 
-	z-index:100; 
-	padding-bottom:1%;
-	padding-top: 1%;
+ 
 }
