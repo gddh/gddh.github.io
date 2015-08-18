@@ -1,0 +1,136 @@
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    height: 650px;
+    margin-bottom: 0px;
+}
+
+.left {
+
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+    bottom: 75px;
+    background: rgba(0,0,0,0.5);
+}
+
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 650px;
+  background-color: #777;
+}
+
+
+
+.img1 {
+    height:650px;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url(../img/innovator/slide1.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.img2 {
+    height:650px;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url(../img/innovator/slide2.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.img3 {
+    height:650px;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url(../img/innovator/slide3.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.img4 {
+    height:650px;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url(../img/innovator/slide4.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.img5 {
+    height:650px;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-image: url(../img/innovator/slide5.jpg);
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 800px;
+  /*height: 1000px;*/
+}
+
+.description hr{
+    border-color: #0171F8;
+    width: 300px;
+    align="left";
+}
+
+body {
+    background-color: black;
+}
+
+.description {
+    margin-top: 10px;
+    border-style:solid;
+    border-color: silver;
+    padding: 10px;
+    color:white;
+    background-color: #328fff;
+
+}
+
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {
+    font-size: 150px;
+}
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
