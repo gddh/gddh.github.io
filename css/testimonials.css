@@ -67,13 +67,14 @@ h1 {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  padding-top: 10px;
+  margin-top: 25px;
 }
 
 #hello h1 {
   font-size:100px;
   font-weight: 175;
   color:white;
-  top:200px;  
 }
 
 .container {
