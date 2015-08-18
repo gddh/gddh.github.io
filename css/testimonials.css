@@ -1,0 +1,90 @@
+html,body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+
+.container {width: 100%; height: 100%;margin: 0;padding: 0;overflow:scroll;}
+#portfolio {width: 100%; height: auto;margin: 0;padding: 0;}
+
+.col {
+  width: 25%;
+	-webkit-box-sizing: border-box; 
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  padding: 10px;
+  float: left;
+}
+
+@media(min-width:768px) {
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #0171F8;
+        background-color:rgba(255,255,255,.75);
+    }
+    .navbar-default:hover {
+        background-color: rgba(255,255,255,1);
+    }
+}
+#nge {
+  color:gray;
+}
+.col img {
+  width: 100%;
+}
+
+.col h3 {
+  width: 100%;
+  padding:10px 3px;
+  margin:0;
+  font-weight: 500;
+  color:white;
+}
+.col p {
+  width: 100%;
+  padding:0px 3px 10px 3px;
+  margin:0;
+  font-weight: 200;
+  font-size: 15px;
+  color:white;
+}
+
+h1 {
+  position: relative;
+  top:45%;
+  margin: 0;
+  text-align: center;
+  font-weight: 100;
+}
+#hello {
+
+  width: 100%;height: 40%;
+  background: url("../img/testimonials/afortop1.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#hello h1 {
+  font-size:100px;
+  font-weight: 175;
+  color:white;
+  top:200px;  
+}
+
+.container {
+  background-color:black;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.body {
+    background: url('../img/testimonials/afortop1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;}
+

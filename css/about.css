@@ -166,6 +166,7 @@ main {
 		font-size: 35px;
 		line-height: 38px;
 		margin-bottom: 12px;
+        border-radius: 25px;
 	}
 	.hsContent p {
         background-color: rgba(50,143,255, 0.75);
@@ -174,6 +175,7 @@ main {
         font-size: 15px;
         font-weight: 400;
         padding: 10px;
+        border-radius: 25px;
 	}
 	.hsContent a {
         color: #b2b2b2;
@@ -184,19 +186,23 @@ main {
 
     #slide-0 .hsContent h2{
         color: white;
-        background-color: rgba(50,143,255, 1);
+        background-color: rgba(50,143,255, 0.75);
         padding: 10px 5px;
         font-size: 35px;
         line-height: 38px;
         margin-bottom: 12px;
-        margin-left: 100px;
+        margin-left: 110px;
         width: 175px;
+        text-align: center;
+        border-radius: 25px
     }
     #slide-0 .hsContent p {
-        background-color: rgba(50,143,255, 1);
+        background-color: rgba(50,143,255, 0.75);
         color: white;
+        border-radius: 25px;
+
         padding: 10px;
-        font-size: 17px;
+        font-size: 19px;
         text-align: center;
     }
 /* Slide 1 */
@@ -216,7 +222,7 @@ main {
 #slide-1 .hsContent h2 {
     position: fixed;
     margin-left:125px;
-    top:28%;
+    top:25%;
 }
 
 #slide-1 .hsContent p {
@@ -274,6 +280,9 @@ main {
 #slide-4 .bcg {background-image: url('../img/bcg_slide-11.jpg')}
 #slide-4 .hsContent {
     margin-left: -550px;
+}
+#slide-4 .hsContent h2 {
+    top:25%;
 }
 
 /* Slide 4 */
