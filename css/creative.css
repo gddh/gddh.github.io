@@ -269,13 +269,12 @@ aside {
     margin: auto;
     width: 60%;
 }
-
-#visit {
-    margin-left: 44%;
+#comevisit {
+    margin: auto;
 }
 
-#visitp {
-    margin-left: 39%
+#visitcontent {
+    text-align: center;
 }
 
 .call-to-action h2 {
