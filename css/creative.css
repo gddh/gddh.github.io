@@ -422,6 +422,10 @@ fieldset[disabled] .btn-primary.active {
     background: #222;
 }
 
+#eightpillars{ 
+    margin-bottom: 35px;
+}
+
 img::selection {
     color: #fff;
     background: 0 0;
