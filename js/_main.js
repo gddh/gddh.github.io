@@ -7,7 +7,7 @@
  * Google+ - https://plus.google.com/u/0/109859280204979591787/about
  * Article URL: http://ihatetomatoes.net/simple-parallax-scrolling-tutorial/
  */
-// permissions changed
+// permissions changed2
 ( function( $ ) {
 	
 	// Setup variables
