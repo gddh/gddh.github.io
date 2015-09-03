@@ -1,4 +1,4 @@
-/*!
+    /*!
  * Start Bootstrap - Creative Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
@@ -227,11 +227,19 @@ aside {
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-    position: relative;
-    top: 50%;
     width: 100%;
     text-align: center;
+    position:relative;
+    background-color:green;
+    /*credit and trick here is: 
+    http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/*/
+    top:50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    /*top: 50% will adjust how far from the top*/
+    /*Vertical-align middle will align it vertically in the middle*/
+    /*vertical-align: text-bottom;*/
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
