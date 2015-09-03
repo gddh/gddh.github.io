@@ -11,13 +11,13 @@ body {
 }
 
 body {
-    font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
+    font-family: Proxima Nova,'Helvetica Neue',Arial,sans-serif;
 }
 
 hr {
-    max-width: 1500px;
-    border-color: #5ba6ff;
-    border-width: 8px;
+    max-width: 700px;
+    border-color: #328FFF;
+    border-width: 5px;
 }
 
 hr.light {
@@ -45,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Proxima Nova,'Helvetica Neue',Arial,sans-serif;
 }
 
 p {
@@ -59,9 +59,9 @@ p {
     min-height: 600px;
 }
 
-.bg-dark {
-    color: #fff;
-    background-color: #222;
+.bg-light {
+    color: black;
+    background-color: #f1f1f1;
 }
 
 .text-faded {
@@ -82,7 +82,7 @@ aside {
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Proxima Nova,'Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -91,7 +91,7 @@ aside {
 
 .navbar-default .navbar-header .logo {
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Proxima Nova,'Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
 }
 .navbar-default .navbar-header .logo .logopict{
@@ -218,7 +218,7 @@ aside {
     width: 100%;
     height: 100%;
     text-align: center;
-    color: #fff;
+    color: white;
     opacity: 0;
     background: rgba(1,113,248,.80);
     -webkit-transition: all .35s;
@@ -237,13 +237,12 @@ aside {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: Proxima Nova,'Helvetica Neue',Arial,sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    text-transform: uppercase;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
@@ -292,7 +291,7 @@ aside {
 
 .btn-default {
     border-color: #fff;
-    color: #222;
+    color: #328FFF;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -306,8 +305,8 @@ aside {
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
-    color: #222;
-    background-color: #f2f2f2;
+    color: #328FFF;
+    background-color: #b8b8b8;
 }
 
 .btn-default:active,
@@ -349,7 +348,7 @@ fieldset[disabled] .btn-default.active {
     background-color: #328fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
-    transition: all .35s;
+    transition: all 0.25s;
 }
 
 .btn-primary:hover,
@@ -400,8 +399,8 @@ fieldset[disabled] .btn-primary.active {
     border: 0;
     border-radius: 300px;
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
+    font-family: Proxima Nova,'Helvetica Neue',Arial,sans-serif;
+    font-weight: 450;
 }
 
 .btn-xl {
