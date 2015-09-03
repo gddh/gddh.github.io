@@ -221,9 +221,9 @@ aside {
     color: white;
     opacity: 0;
     background: #0171f8;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
@@ -236,6 +236,7 @@ aside {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    /*vertical-align: middle;*/
     /*top: 50% will adjust how far from the top*/
     /*vertical-align: middle;*/
     /*Vertical-align middle will align it vertically in the middle*/
