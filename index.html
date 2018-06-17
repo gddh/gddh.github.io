@@ -20,8 +20,8 @@
                     </a>
                 </div>
                 <a href="index.html" class="active">ABOUT</a>
-                <a href="https://github.com/gddh?tab=repositories"">PROJECTS</a>
-                <a href="">NOTES</a>
+                <a href="#PROJECTS">PROJECTS</a>
+                <a href="#NOTES">NOTES</a>
                 <a href="">THOUGHTS</a>
 
             </div>
@@ -43,10 +43,10 @@
                 </span>
             </div>
 	</section>
-    <hr id="hr1">
+    <hr class="hr1">
     <section class="content">
         <div class="content-nav">
-            <a href="https://github.com/gddh?tab=repositories"">PROJECTS</a>
+            <a href="#PROJECTS">PROJECTS</a>
             <a href="#NOTES">NOTES</a>
             <a href="">THOUGHTS</a>
         </div>
@@ -131,6 +131,50 @@
                         <p id="content-footer"> Note 09 </p>
                     </div>
                 </a>
+            </div>
+        </div>
+        <hr class="hr1" id="PROJECTS">
+        <div class="content-nav">
+            <a href="https://github.com/gddh"> Github Profile</a>
+            <a href="https://github.com/gddh/maximus-1.0"> Maximus Repo </a>
+            <a href="https://github.com/gddh/JFJ"> JFJ Repo</a>
+        </div>
+        <div class="row">
+            <div class="column left">
+                <div class="proj_background" id="Maximus-background"> 
+                </div>
+                <a href="https://github.com/gddh/maximus-1.0">
+                    <div class="proj_title"> 
+                        <h2> Maximus </h2>
+                    </div>
+                </a>
+            </div>
+            <div class="column right">
+                <p>
+                    <strong> Problem: </strong> Many students give up on the learning process due to boredom or inability to solve their problems. A “motivation problem.”
+                    <br>
+                    <br>
+                    <strong>Solution:</strong> Conducted research on logotheraphy, mental resilience, and the growth mindset. Implemented a two part solution in the form of Maximus and a tight community of struggling students. Maximus encourages students to meet their goals, reminds them of cues to trigger routines leading into new habits, keeps track of time, and will ask how the user is doing. The users are eventually connected with each other to form a community for support and accountability in each other. Ultimately allows for the development of a culture that embraces failure and the growth mindset. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column left">
+                <div class="proj_background" id="JFJ-background"> 
+                </div>
+                <a href="https://github.com/gddh/JFJ">
+                    <div class="proj_title"> 
+                        <h2> JFJ </h2>
+                    </div>
+                </a>
+            </div>
+            <div class="column right">
+                <p>
+                    <strong> Problem:</strong> Valgrind is not readily accessible at 42 lab computers, and many students don’t know how to use it.
+                    <br>
+                    <br>
+                    <strong>Solution:</strong> Easy to use C script to detect memory leaks. Simply clone from git, copy the .c .h file into project directory, un/comment relevant functions and includes, add `leaks()` to main and run.  Using macros and linked lists, I enwrap function calls that allocate and deallocate memory. JFJ will print on stdout the file, line, function, memory space, and amount of memory that was allotted or freed.
+                </p>
             </div>
         </div>
     </section>
