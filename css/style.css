@@ -1,0 +1,358 @@
+/* ---------------------- */
+/* -------- Base -------- */
+/* ---------------------- */
+/* ---------------------- */
+/* ------- Global ------- */
+/* ---------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Big Title bold */
+h1 {
+  font-weight: 200;
+  font-size: 40px;
+}
+
+/* Big Title subtle */
+h2 {
+  font-weight: 100;
+  font-size: 20px;
+}
+
+/* description */
+h3 {
+  font-weight: 100;
+  font-size: 14px;
+  padding: 4px 0;
+}
+
+/* small description */
+h4 {
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+/* Details */
+h5 {
+  font-weight: 500;
+  font-size: 10px;
+}
+
+strong {
+  font-weight: 900;
+  color:rgba(0,51,102,1);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0,51,102,0.4);
+  font-family: 'Raleway', sans-serif;
+  border-bottom: 1px solid rgba(192, 192, 192, 0);
+  /* ^- the important bit. RGB 192,192,192 is the same as #C0C0C0*/
+  
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; 
+}
+
+.site-title {
+  color: rgba(0,51,102,1);
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif
+  font-weight:400;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  top: 0;
+  width: 100%;
+  /*background: yellow;*/
+  color: #454d56;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 0;
+  height: 70px;
+  font-family: 'Raleway', sans-serif;
+  transition: top 0.2s ease-out;
+  background: white;
+}
+
+header a:hover {
+  color: black;
+}
+
+.header-left {
+  top: 2;
+  margin-top: 14px;
+  float: left;
+  display:block-inline;
+  /*background-color: green;*/
+  padding-left:3%;
+}
+
+.content-nav {
+    display:block-inline;
+    text-align: center;
+    padding-top: 25px;
+    /*background-color: pink;*/
+}
+
+.content-nav a {
+  margin-right: 2.5%;
+  margin-left:2.5%;
+}
+
+.content-nav a:hover {
+  color: rgba(0, 51, 102, 1);
+}
+
+.header-left a {
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.header-left a:hover {
+  margin-right: 10px;
+  font-size: 12px;
+  border-bottom: 1px solid rgba(0,0,0, 1);
+}
+
+.header-left .icon {
+  display: none;
+}
+
+.header-right {
+  margin-top: 14px;
+  width: auto;
+  position: fixed;
+  right: 3%;
+}
+
+.header-right a {
+  margin-left: 16px;
+  color: rgba(0, 51, 102, 1);
+  font-size: 20px;
+}
+
+#head-hr{ 
+    display: block;
+    width:30%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#hr1 {
+  display: block;
+  width: 100%;
+  border-color: rgba(0, 51, 102, 0.09);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+/* ---------------------- */
+/* ------ GridSys ------- */
+/* ---------------------- */
+
+.grid-container {
+  display: grid;
+  grid-gap: 25px;
+  grid-template-columns: 30% 30% 30%;
+  /*background-color: #2196F3;*/
+  background-color: white;
+  padding: 70px;
+  width: 100%;
+  margin: auto;
+/*  grid-template-areas: 
+            "a b c"
+            "d e f"
+            "g h i";*/
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 51, 102, 0.1);
+  font-size: 30px;
+  text-align: center;
+  /*background: linear-gradient(to bottom left, white, rgba(0,0,0,0.4)); /* Standard syntax (must be last) */*/
+  top: 3px;
+}
+
+.grid-item:hover {
+  transition: all .5s cubic-bezier(.77,0,.175,1);
+  box-shadow: 0 5px 15px 0 rgba(0,51, 102,.3);
+  transform: scale(1.05);
+  cursor:pointer;
+}
+
+#grid8, #grid9{
+  background: linear-gradient(to bottom left, white, rgba(0, 51, 102, 0.05)); /* Standard syntax (must be last) */
+}
+
+.grid-content h2, .grid-content p#content-footer {
+    color: rgba(0, 51, 102, 0.75);
+}
+
+#grid8 p#content-footer, #grid8 h2, #grid9 p#content-footer, #grid9 h2  {
+  color:rgba(0, 51, 102, 0.5);
+}
+#grid8 p#description, #grid9 p#description {
+  color:rgba(0, 51, 102, 0.25);
+}
+
+
+.grid-content h2 {
+  font-family: 'Raleway', sans-serif;
+  padding-top:10%;
+  text-align:left;
+  padding-left:5%;
+}
+
+.grid-content p {
+    font-family: 'Raleway', sans-serif;
+    font-size:12px;
+    color: rgba(0, 51, 102, 0.5);
+}
+.grid-content #description {
+    padding-top:5%;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:2%;
+}
+.grid-content #content-footer {
+    padding-top:10%;
+    padding-right: 5%;
+    text-align: right;
+    padding-bottom:10%;
+}
+
+/* ---------------------- */
+/* ------- Pages -------- */
+/* ---------------------- */
+
+
+.c-white {
+  background: #ffffff;
+  padding-bottom: 100px;
+}
+
+/* ---------------------- */
+/* ---- Project Page ---- */
+/* ---------------------- */
+.installer-body {
+  padding-top: 116px;
+}
+
+.project-title {
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  color: rgba(0, 51, 102, 1);
+}
+
+
+.info-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
+.section-title {
+  display: block;
+  font-style: normal;
+  line-height: 1.6em;
+  margin-top: 24px;
+}
+
+.section-detail {
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  color: rgba(0, 51, 102, 0.55);
+  font-size: 15px;
+  max-width: 640px;
+  margin-top: 16px;
+  margin-bottom: 40px;
+  line-height: 1.64;
+}
+
+.section-detail h3 {
+  font-size: 16px;
+}
+
+/* ---------------------- */
+/* --- Mobile & size ---- */
+/* ---------------------- */
+
+@media screen and (max-width: 680px) {
+  .info-box {
+    padding: 0 24px;
+  }
+
+  .header-left a {
+    display: none;
+    left: 3%;
+  }
+  .header-left a.icon {
+    display: block;
+  }
+
+  .header-left.responsive {
+      position: relative;
+    }
+  .header-left.responsive a.icon {
+    position: static;
+    left: 3%;
+    top: 0;
+  }
+  .header-left.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .button {
+    width:100%;
+  }
+  .grid-container {
+    display: block;
+    padding: 50px;
+  }
+  .grid-content {
+    padding-top: 25%;
+    padding-bottom: 25%;
+  }
+
+  .grid-content h2 {
+    /*text-align:center;*/
+    font-size: 15px;
+    /*padding:2%;*/
+    overflow:hidden;
+  }
+
+  .grid-item:hover {
+    /*background: blue; */
+    transition: all .5s cubic-bezier(.77,0,.175,1);
+    box-shadow: 0 5px 15px 0 rgba(0, 51, 102,.1);
+    cursor:pointer;
+}
+
+
+}
+
+body.hidden {
+  display: none;
+}
