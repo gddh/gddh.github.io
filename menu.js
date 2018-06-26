@@ -8,7 +8,8 @@ function myFunction() {
 }
 
 $(document).ready(function() {
-	$('body.hidden').fadeIn(500).removeClass('hidden')
+	$('body.hidden').fadeIn(750).removeClass('hidden')
+	// $('body.hidden').fadeIn(1000).removeClass('hidden')
 })
 
 var $root = $('html, body');
